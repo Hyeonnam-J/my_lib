@@ -1,0 +1,10 @@
+^D:\CPROJECT\MY_LIB\OUT\BUILD\VISUAL STUDIO BUILD TOOLS 2022 RELEASE - AMD64\CMAKEFILES\AE42FDB10ECF15D1A430B1848652FE4C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CProject/my_lib "-BD:/CProject/my_lib/out/build/Visual Studio Build Tools 2022 Release - amd64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/CProject/my_lib/out/build/Visual Studio Build Tools 2022 Release - amd64/my_lib.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
