@@ -1,4 +1,4 @@
-# 111 - 파일 명시.
+########################################### 1 - 파일 명시.
 # cmake_minimum_required(VERSION 3.0.0)
 # project(my_lib VERSION 0.1.0 LANGUAGES C)
 
@@ -8,7 +8,8 @@
 # set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 # include(CPack)
 
-# 222 - 폴더 명시.
+
+########################################### 2 - 폴더 명시.
 # cmake_minimum_required(VERSION 3.0.0)
 # project(my_lib VERSION 0.1.0 LANGUAGES C)
 
@@ -23,7 +24,7 @@
 # set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 # include(CPack)
 
-# 333 - 전체 c 파일.
+########################################### 3 - 전체 c 파일.
 cmake_minimum_required(VERSION 3.0.0)
 project(my_lib VERSION 0.1.0 LANGUAGES C)
 
